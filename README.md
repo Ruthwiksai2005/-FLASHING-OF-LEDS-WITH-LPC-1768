@@ -46,8 +46,9 @@ Delay.h, stdutils.h, gpioi.h
 
 # CIRCUIT DIAGRAM:
  <img width="672" height="378" alt="image" src="https://github.com/user-attachments/assets/911e08c2-e01f-47f1-a5ba-54826c8add8a" />
+ ```
 # PROGRAM:
-```
+
 #include <lpc17xx.h> 
 #include "delay.h" //User defined library which conatins the delay routines 
 #include "gpio.h" 
@@ -69,9 +70,12 @@ int main()
    DELAY_ms(100); 
   } 
 }
+
 ```
 # Output:
-<img width="900" height="651" alt="image" src="https://github.com/user-attachments/assets/7f4aa4ce-0f05-4169-8419-d3d5bdf65dde" />
+![WhatsApp Image 2025-11-11 at 14 16 20_14a4e1f9](https://github.com/user-attachments/assets/8152fbbe-7c92-4f9e-ad47-1ec74a86d86f)
+
+
 
 
 
